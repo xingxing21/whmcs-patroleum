@@ -34,7 +34,7 @@
             <ul class="nav justify-content-center justify-content-lg-start mb-7">
                 <li class="nav-item">
                     <a class="nav-link" href="{$WEB_ROOT}/contact.php">
-                        {lang key='contactus'} Open 24 hours: 1-800-777-1944
+                        {lang key='contactus'}<br/>Open 24 hours: 1-800-777-1944
                     </a>
                 </li>
                 {if $acceptTOS}
