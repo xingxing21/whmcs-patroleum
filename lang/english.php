@@ -2839,7 +2839,7 @@ $_LANG['twofacurrently'] = "Two-factor authentication is currently";
 $_LANG['enabled'] = "Enabled";
 $_LANG['disabled'] = "Disabled";
 
-$_LANG['copyrightFooterNotice'] = "Copyright &copy; :year :company. All Rights Reserved.";
+$_LANG['copyrightFooterNotice'] = "Copyright &copy; 2012 - :year :company, LLC. All Rights Reserved.";
 
 $_LANG['paymentMethods']['title'] = "Payment Methods";
 $_LANG['paymentMethods']['intro'] = "An overview of your payment methods and settings.";
