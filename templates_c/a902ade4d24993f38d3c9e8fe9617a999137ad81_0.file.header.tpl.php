@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.36, created on 2022-05-21 04:59:37
+/* Smarty version 3.1.36, created on 2023-03-01 23:59:42
   from '/var/www/html/whmcs/templates/twenty-one/header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.36',
-  'unifunc' => 'content_628871b903d724_35386320',
+  'unifunc' => 'content_6400576e8d39e1_11414076',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a902ade4d24993f38d3c9e8fe9617a999137ad81' => 
     array (
       0 => '/var/www/html/whmcs/templates/twenty-one/header.tpl',
-      1 => 1645004360,
+      1 => 1677740789,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_628871b903d724_35386320 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6400576e8d39e1_11414076 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!doctype html>
 <html lang="en">
 <head>
@@ -148,8 +148,8 @@ echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUG
 " alt="<?php echo $_smarty_tpl->tpl_vars['companyname']->value;?>
 " class="logo-img">
                     <?php } else { ?>
-                        <?php echo $_smarty_tpl->tpl_vars['companyname']->value;?>
-
+                        <span style="font-weight:bold;"><?php echo $_smarty_tpl->tpl_vars['companyname']->value;?>
+</span>
                     <?php }?>
                 </a>
 
