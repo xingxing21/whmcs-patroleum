@@ -83,7 +83,7 @@
                     {if $assetLogoPath}
                         <img src="{$assetLogoPath}" alt="{$companyname}" class="logo-img">
                     {else}
-                        {$companyname}
+                        <span style="font-weight:bold;">{$companyname}</span>
                     {/if}
                 </a>
 
